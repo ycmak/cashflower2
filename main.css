@@ -1,0 +1,113 @@
+/* main.css */
+body{
+	margin: 0;
+	font-family: Consolas;
+	font-size: 10pt;
+}
+
+#p_left{
+	float: left;
+	width: 40%;
+	border-right: 1px solid black;
+	height: 100%;
+}
+
+#p_right{
+	float: left;
+	width: 59%;
+	height: 100%;
+	overflow: auto;
+}
+
+h1{
+	font-family: Consolas;
+	font-size: 14pt;
+	color: #333333;
+	margin-left: 10px;
+	margin-right: 20px;
+	float: left;
+	line-height: 200%;
+}
+
+#ta_accounts{
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	font-family: Consolas;
+	font-size: 10pt;
+	background-color: #eeeeee;
+	border: 0px;
+	padding: 10px;
+	font-weight: bold;
+}
+
+input[type=button], input[type=button]:hover{
+	background-color: #888888;
+	color: yellow;
+	font-weight: bold;
+	font-size: 12pt;
+	border: 1px solid #666666;
+	font-family: Consolas;
+	padding: 5px;
+	cursor: pointer;
+}
+
+input[type=button]:hover{
+	background-color: blue;
+	border: 1px solid navy;
+	color: white;
+}
+
+.new_month{
+	background-color: #eeeeee;
+	font-size: 12pt;
+	text-align: left;
+	padding-top: 10px;
+	border-top: 1px solid black;
+	font-weight: bold;
+	color: navy;
+}
+
+#results{
+	padding: 10px;
+	border-top: 1px solid black;
+}
+
+table{
+	width: 100%;
+}
+
+th{
+	border-bottom: 1px solid black;
+	font-weight: bold;
+	padding: 5px;
+}
+
+.la{
+	text-align: left;
+}
+
+.ra{
+	text-align: right;
+}
+
+td{
+	padding: 5px;
+	font-size: 10pt;
+	border-bottom: 1px solid #cccccc;
+}
+
+.in_the_red{
+	font-weight: bold;
+	color: red;
+}
+
+.td_ar{
+	text-align: right;
+	color: green;
+}
+
+.td_ap{
+	text-align: right;
+	color: red;
+}
